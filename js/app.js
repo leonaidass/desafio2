@@ -44,7 +44,7 @@ Vue.component('tabla',{
     props:["items","estilo"],
     
     template:`
-    <table class="table">
+    <table :class="estilo">
         <thead>
             <tr>
             <th scope="col">#</th>
@@ -52,18 +52,17 @@ Vue.component('tabla',{
             <th scope="col">Apellido</th>
             <th scope="col">Edad</th>
             <th scope="col">Foto</th>
-            <th scope="col">Estilos</th>
             </tr>
         </thead>
             <tbody>
                
                 <tr v-for="(item,i) in items">
                     <th scope="row">{{item.id}}</th>
-                    <td >{{item.nombre}}</td>
-                    <td >{{item.apellido}}</td>
+                    <td>{{item.nombre}}</td>
+                    <td>{{item.apellido}}</td>
                     <td>{{item.edad}}</td>
                     <td><img :src=item.foto></td>
-                    <td>{{estilo}}</td>
+                    
                 </tr>
             </tbody>
 </table>  
@@ -75,9 +74,10 @@ Vue.component('tabla',{
 var app = new Vue({
     el: '#app',
     data: {
-            dark:"table-dark",
-            primary:"table-primary",
-            datos:[{
+            dark:" table table-dark",
+            primary:"table table-primary",
+            secondary:"table table-secondary",
+            cursoAndroid:[{
                     id:1,
                     nombre:"leonardo",
                     apellido:"esquivel",
@@ -98,6 +98,50 @@ var app = new Vue({
                         edad:40,
                         foto:"https://www.matrixchipichape.com/2018/wp-content/uploads/2019/11/8shengen-233x300.jpg"
                     },
-                ]
+                ],
+                cursoVue:[{
+                  id:1,
+                  nombre:"leonardo",
+                  apellido:"esquivel",
+                  edad:31,
+                  foto:"https://photoprint.com.co/wp-content/uploads/2020/05/pasaporte-alemana8_217x150.jpg"
+                  },
+                  {   
+                      id:2,
+                      nombre:"Juan",
+                      apellido:"Perez",
+                      edad:24,
+                      foto:"https://photoprint.com.co/wp-content/uploads/2020/05/documento_217x150.png"
+                  },
+                  {   
+                      id:3,
+                      nombre:"Emiliano",
+                      apellido:"Gonzalez",
+                      edad:40,
+                      foto:"https://www.matrixchipichape.com/2018/wp-content/uploads/2019/11/8shengen-233x300.jpg"
+                  },
+              ],
+              cursoJava:[{
+                id:1,
+                nombre:"leonardo",
+                apellido:"esquivel",
+                edad:31,
+                foto:"https://photoprint.com.co/wp-content/uploads/2020/05/pasaporte-alemana8_217x150.jpg"
+                },
+                {   
+                    id:2,
+                    nombre:"Juan",
+                    apellido:"Perez",
+                    edad:24,
+                    foto:"https://photoprint.com.co/wp-content/uploads/2020/05/documento_217x150.png"
+                },
+                {   
+                    id:3,
+                    nombre:"Emiliano",
+                    apellido:"Gonzalez",
+                    edad:40,
+                    foto:"https://www.matrixchipichape.com/2018/wp-content/uploads/2019/11/8shengen-233x300.jpg"
+                },
+            ]
          }
   })
