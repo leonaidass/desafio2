@@ -86,61 +86,61 @@ var app = new Vue({
                     },
                     {   
                         id:2,
-                        nombre:"Juan",
-                        apellido:"Perez",
+                        nombre:"Maria",
+                        apellido:"Lopez",
                         edad:24,
                         foto:"https://photoprint.com.co/wp-content/uploads/2020/05/documento_217x150.png"
                     },
                     {   
                         id:3,
-                        nombre:"Emiliano",
-                        apellido:"Gonzalez",
+                        nombre:"Juan",
+                        apellido:"Perez",
                         edad:40,
                         foto:"https://www.matrixchipichape.com/2018/wp-content/uploads/2019/11/8shengen-233x300.jpg"
                     },
                 ],
                 cursoVue:[{
                   id:1,
-                  nombre:"leonardo",
-                  apellido:"esquivel",
-                  edad:31,
-                  foto:"https://photoprint.com.co/wp-content/uploads/2020/05/pasaporte-alemana8_217x150.jpg"
+                  nombre:"Roberto",
+                  apellido:"Gonzalez",
+                  edad:35,
+                  foto:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2SuyD60f08TPsRU7hvLQwzfMOoGQdD-8ZH3quM6pgGMihtaIl9a1nur_JlgmH-aJz_ik&usqp=CAU"
                   },
                   {   
                       id:2,
-                      nombre:"Juan",
-                      apellido:"Perez",
-                      edad:24,
-                      foto:"https://photoprint.com.co/wp-content/uploads/2020/05/documento_217x150.png"
+                      nombre:"Rodrigo",
+                      apellido:"Gomez",
+                      edad:20,
+                      foto:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQacE8JRc9W5if2YIECzxfvOg3oFHMMevp4HnTtLZCkCOuPNxEYDsQzYNfAOFs4GK0a5Yo&usqp=CAU"
                   },
                   {   
                       id:3,
-                      nombre:"Emiliano",
-                      apellido:"Gonzalez",
-                      edad:40,
-                      foto:"https://www.matrixchipichape.com/2018/wp-content/uploads/2019/11/8shengen-233x300.jpg"
+                      nombre:"Julieta",
+                      apellido:"Lopez",
+                      edad:34,
+                      foto:"http://www.enfoca2.com.mx/wp-content/uploads/2018/pasaporte/Fotografia%20para%20Pasaporte%2005.jpg"
                   },
               ],
               cursoJava:[{
                 id:1,
-                nombre:"leonardo",
-                apellido:"esquivel",
-                edad:31,
-                foto:"https://photoprint.com.co/wp-content/uploads/2020/05/pasaporte-alemana8_217x150.jpg"
+                nombre:"Julian",
+                apellido:"Ramos",
+                edad:43,
+                foto:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgTOYp_MJL6ghp7jXK5sX6-5qwbgATuunH5lapgH_iOALbhWU1jtzYPjWbNa36nWPKs7Q&usqp=CAU"
                 },
                 {   
                     id:2,
-                    nombre:"Juan",
-                    apellido:"Perez",
+                    nombre:"Ignacio",
+                    apellido:"Gimenez",
                     edad:24,
-                    foto:"https://photoprint.com.co/wp-content/uploads/2020/05/documento_217x150.png"
+                    foto:"https://vizualmexico.com.mx/wp-content/uploads/2019/08/titulo-color6.jpg"
                 },
                 {   
                     id:3,
-                    nombre:"Emiliano",
-                    apellido:"Gonzalez",
-                    edad:40,
-                    foto:"https://www.matrixchipichape.com/2018/wp-content/uploads/2019/11/8shengen-233x300.jpg"
+                    nombre:"Romina",
+                    apellido:"Martinez",
+                    edad:36,
+                    foto:"https://vizualmexico.com.mx/wp-content/uploads/2019/08/foto-titulo-Yun.jpg"
                 },
             ]
          }
