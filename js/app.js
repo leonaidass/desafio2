@@ -143,5 +143,8 @@ var app = new Vue({
                     foto:"https://vizualmexico.com.mx/wp-content/uploads/2019/08/foto-titulo-Yun.jpg"
                 },
             ]
-         }
+            
+         },
+
+       
   })
