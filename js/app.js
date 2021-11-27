@@ -62,6 +62,8 @@ Vue.component('tabla',{
                     <td>{{item.apellido}}</td>
                     <td>{{item.edad}}</td>
                     <td><img :src=item.foto></td>
+
+                    
                     
                 </tr>
             </tbody>
